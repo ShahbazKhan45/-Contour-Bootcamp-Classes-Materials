@@ -1,6 +1,6 @@
 # -Contour-Bootcamp-Classes-Materials
 
-#Second Class
+<h3>Second Class</h3>
 <h1>Bootstrap</h1>
 <p>Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development.
     <br>
