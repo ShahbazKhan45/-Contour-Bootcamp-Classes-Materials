@@ -11,11 +11,10 @@
 <h2>How to Link Bootstrap</h2>
 <h5>Method 1: Using the Bootstrap Content Delivery Network (CDN) <br> For CSS</h5>
 <p>Copy this stylesheet link to the <head> tag of your desired HTML file. <br>
-    #For CSS
-    <h6>
-        <link rel=stylesheet” href=”https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css”rel=”nofollow”
-            integrity=”sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm” crossorigin=”anonymous”>
-    </h6>
+    
+        #For CSS
+        "<link rel=stylesheet” href=”https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css”rel=”nofollow”
+            integrity=”sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm” crossorigin=”anonymous”>"
 
         #For JS
         <p>Copy this stylesheet before the end of the <body> tag of your desired HTML file. <br>
