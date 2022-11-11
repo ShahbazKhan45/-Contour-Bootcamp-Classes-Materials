@@ -146,7 +146,6 @@ let x = function(x, y) { return x * y; }
 <p>A clousure function is an inner function that has access to the outer (enclosing) function's variable. <br>
     function outerFun(){
         var text1 = "This is outer text of variable";
-
         function innerFun(){
             var text2 = `This is inner Text of the variable and ${text1}`;
             console.log(text2)
@@ -181,3 +180,6 @@ if (num > 0) {
     console.log(`The factorial of ${num} is ${result}`);
 }    
 </p>
+
+hr
+
