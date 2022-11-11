@@ -179,3 +179,51 @@ if (num > 0) {
     console.log(`The factorial of ${num} is ${result}`);
 }    
 </p>
+
+  <!-- 3rd Class 11/11/22  -->
+
+  <h2>Normal Function</h2>
+  <script>
+      k = 1;
+      function A() {
+          this.k = 2;
+          return function B() {
+              console.log(this.k);
+          }
+      }
+      A();
+      // 
+
+
+      var person = {
+          age: 28,
+          greet1: function () {
+              console.log("Greet 1", this.age);
+              console.log("Greet 1", this);
+              function greet2() {
+                  console.log("Greet 2", this.age);
+                  console.log("Greet 2", this);
+              }
+              greet2();
+          }
+      }
+      person.greet1();
+      // 
+      var person = {
+          age: 28,
+          greet1: function () {
+              console.log("Greet 1", this.age);
+              console.log("Greet 1", this);
+              greet2 = () => {
+                  console.log("Greet 2", this.age);
+                  console.log("Greet 2", this);
+              }
+              greet2();
+          }
+      }
+      var abc = () => {
+          return person.greet1()
+      }
+      abc();
+
+  </script>
